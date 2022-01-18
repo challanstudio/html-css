@@ -1,0 +1,19 @@
+div[class="wrapper"] {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+div[class="wrapper"] div {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  background-color: aquamarine;
+}
+
+div[class="wrapper"] div:nth-child(2n) {
+  background-color: cadetblue;
+  font-size: 2rem;
+  align-self: center;
+}
