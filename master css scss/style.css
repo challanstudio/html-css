@@ -9,7 +9,8 @@ div[class="wrapper"] {
   text-align: center;
   display: grid;
   grid-template: repeat(3, 100px) / repeat(3, 100px);
-  justify-items: flex-end;
+  justify-content: end;
+  align-content: start;
 }
 
 div[class="wrapper"] div {
